@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('https://cdn.pixabay.com/photo/2021/06/07/06/57/forest-6301637_960_720.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url('https://dlcorp.com.vn/wp-content/uploads/2020/11/film-environment-collection-resize-1200x0-70.jpg');
+    padding: 50px;
+    text-align: center;
+    border-radius: 20px; 
+    margin: 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #00e676;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px #00e676;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-shadow: 0 0 3px #00e676;
+}
+
+nav ul li a:hover {
+    background-color: #00e676;
+}
+
+section {
+    background: linear-gradient(to right, rgba(0, 80, 80, 0.85), rgba(20, 20, 20, 0.95));
+    padding: 50px 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    color: #00e676;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #00e676;
+}
+
+section img {
+    width: 70%; 
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 15px rgba(0, 230, 118, 0.5);
+}
+
+section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: justify;
+    padding: 0 20px;
+    text-shadow: 0 0 3px #00e676;
+}
+#video {
+    background: linear-gradient(to right, rgba(0, 80, 80, 0.85), rgba(20, 20, 20, 0.95));
+    padding: 50px 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#video h2 {
+    font-size: 2.5rem;
+    color: #00e676;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #00e676;
+}
+
+.video-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 230, 118, 0.5);
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #fff;
+    text-shadow: 0 0 3px #00e676;
+}
+
+footer {
+    text-align: center;
+    background: linear-gradient(to right, #111, #222);
+    padding: 30px 20px;
+    color: #fff;
+    border-radius: 20px; 
+    margin: 20px;
+}
+
+footer h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-shadow: 0 0 15px #00e676;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul li {
+    margin: 10px 0;
+}
+
+footer ul li a {
+    color: #00e676;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    text-shadow: 0 0 15px #00e676;
+}
+
+footer ul li a:hover {
+    color: #fff;
+}
+
+footer p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: justify;
+    padding: 0 20px;
+    text-shadow: 0 0 15px #00e676;
+}
+
+strong {
+    color: #00e676;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    section h2 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    footer {
+        padding: 20px 10px;
+    }
+}
+.content-box {
+    max-width: 800px;  /* Giới hạn chiều rộng tối đa */
+    margin: 0 auto;  /* Căn giữa */
+    padding: 15px;    /* Thêm khoảng cách bên trong */
+    border: 2px solid #00e676;  /* Viền xanh lá phát sáng */
+    border-radius: 8px;  /* Góc bo tròn */
+    box-shadow: 0 0 15px rgba(0, 230, 118, 0.8);  /* Viền phát sáng */
+    background-color: transparent;  /* Nền trong suốt */
+    color: #fff;  /* Màu chữ trắng */
+}
+#feedback {
+    background: linear-gradient(to right, rgba(0, 80, 80, 0.85), rgba(20, 20, 20, 0.95));
+    padding: 50px 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#feedback h2 {
+    font-size: 2.5rem;
+    color: #00e676;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #00e676;
+}
+
+#feedback-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#feedback-form label {
+    font-size: 1.2rem;
+    color: #fff;
+    text-shadow: 0 0 3px #00e676;
+}
+
+#feedback-form input, 
+#feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #00e676;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff;
+    font-size: 1rem;
+}
+
+#feedback-form button {
+    background-color: #00e676;
+    color: #000;
+    font-size: 1.2rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#feedback-form button:hover {
+    background-color: #fff;
+    color: #00e676;
+}
+
